@@ -1,0 +1,81 @@
+,RMSLE_Train,RMSLE_Test,real_RMSLE,Model,feature_used
+0,0.13517841,0.297059495,0.985853489,"GradientBoostingRegressor(learning_rate=0.04, max_features=0.9,
+                          min_samples_leaf=0.0001, n_estimators=2500,
+                          random_state=0, subsample=0.8)","['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog']"
+1,0.13517841,0.297059495,0.985853489,"GradientBoostingRegressor(learning_rate=0.04, max_features=0.9,
+                          min_samples_leaf=0.0001, n_estimators=2500,
+                          random_state=0, subsample=0.8)","['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog']"
+0,0.13517841,0.297059495,0.985853489,"GradientBoostingRegressor(learning_rate=0.04, max_features=0.9,
+                          min_samples_leaf=0.0001, n_estimators=2500,
+                          random_state=0, subsample=0.8)","[['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog']]"
+0,0.13517841,0.297059495,0.985853489,"GradientBoostingRegressor(learning_rate=0.04, max_features=0.9,
+                          min_samples_leaf=0.0001, n_estimators=2500,
+                          random_state=0, subsample=0.8)","[36, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog']]"
+0,0.13517841,0.297059495,0.985853489,"GradientBoostingRegressor(learning_rate=0.04, max_features=0.9,
+                          min_samples_leaf=0.0001, n_estimators=2500,
+                          random_state=0, subsample=0.8)","(36, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.13517841,0.297059495,0.985853489,"GradientBoostingRegressor(learning_rate=0.04, max_features=0.9,
+                          min_samples_leaf=0.0001, n_estimators=2500,
+                          random_state=0, subsample=0.8)","(36, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.371231594,0.589423104,0.767689662,"BaggingRegressor(base_estimator=GradientBoostingRegressor(learning_rate=0.04,
+                                                          max_features=0.9,
+                                                          min_samples_leaf=0.0001,
+                                                          n_estimators=2500,
+                                                          random_state=0,
+                                                          subsample=0.8),
+                 bootstrap_features=True, n_jobs=3, random_state=911)","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.371231594,0.589423104,0.767689662,"BaggingRegressor(base_estimator=GradientBoostingRegressor(learning_rate=0.04,
+                                                          max_features=0.9,
+                                                          min_samples_leaf=0.0001,
+                                                          n_estimators=2500,
+                                                          random_state=0,
+                                                          subsample=0.8),
+                 bootstrap_features=True, n_jobs=3, random_state=911)","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.371231594,0.589423104,0.767689662,"BaggingRegressor(base_estimator=GradientBoostingRegressor(learning_rate=0.04,
+                                                          max_features=0.9,
+                                                          min_samples_leaf=0.0001,
+                                                          n_estimators=2500,
+                                                          random_state=0,
+                                                          subsample=0.8),
+                 bootstrap_features=True, n_jobs=3, random_state=911)","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.366671611,0.525977824,0.72254558,"BaggingRegressor(base_estimator=GradientBoostingRegressor(learning_rate=0.04,
+                                                          max_features=0.9,
+                                                          min_samples_leaf=0.0001,
+                                                          n_estimators=2500,
+                                                          random_state=0,
+                                                          subsample=0.8),
+                 bootstrap_features=True, max_samples=0.6, n_estimators=20,
+                 n_jobs=-1, oob_score=True, random_state=911)","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.366671611,0.525977824,0.72254558,"BaggingRegressor(base_estimator=GradientBoostingRegressor(learning_rate=0.04,
+                                                          max_features=0.9,
+                                                          min_samples_leaf=0.0001,
+                                                          n_estimators=2500,
+                                                          random_state=0,
+                                                          subsample=0.8),
+                 bootstrap_features=True, max_samples=0.6, n_estimators=20,
+                 n_jobs=3, random_state=911)","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,inf,inf,0.72254558,"BaggingRegressor(base_estimator=GradientBoostingRegressor(learning_rate=0.04,
+                                                          max_features=0.9,
+                                                          min_samples_leaf=0.0001,
+                                                          n_estimators=2500,
+                                                          random_state=0,
+                                                          subsample=0.8),
+                 bootstrap_features=True, max_samples=0.6, n_estimators=20,
+                 n_jobs=3, random_state=911)","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.1351784095567747,0.29705949464132403,0.9858534885622104,"GradientBoostingRegressor(learning_rate=0.04, max_features=0.9,
+                          min_samples_leaf=0.0001, n_estimators=2500,
+                          random_state=0, subsample=0.8)","(36, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.00926796923051593,0.26041591196861796,0.8082548956486604,"GridSearchCV(cv=2,
+             estimator=GradientBoostingRegressor(max_features=0.8,
+                                                 min_samples_leaf=0.0001,
+                                                 random_state=9110),
+             n_jobs=-1,
+             param_grid={'learning_rate': [0.001, 0.01, 0.02, 0.1],
+                         'max_depth': [1, 2, 4, 6],
+                         'n_estimators': [2000, 3000, 4000, 5000, 6000, 7000,
+                                          8000, 9000, 10000, 11000],
+                         'subsample': [0.5, 0.75, 1]},
+             scoring=make_scorer(rmsle, greater_is_better=False))","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
+0,0.00926796923051593,0.26041591196861796,0.8082548956486604,"GradientBoostingRegressor(learning_rate=0.01, max_depth=6, max_features=0.8,
+                          min_samples_leaf=0.0001, n_estimators=11000,
+                          random_state=9110, subsample=0.5)","(37, ['Hour', 'Temperature(C)', 'Humidity(%)', 'Wind speed (m/s)', 'Visibility (10m)', 'Dew point temperature(C)', 'Solar Radiation (MJ/m2)', 'Rainfall(mm)', 'Snowfall (cm)', 'Seasons', 'Holiday', 'Functioning Day', 'Year', 'Week', 'Month', 'WeekDay', 'day_night', 'Humidex', 'Visibility_dist', 'Rain_cat', 'Snow_cat', 'Rush_hour', 'Dead_hour', 'Humidity_high', 'Temperature_high', 'Weather_bad', 'Ideal', 'Weather_State', 'Weather_stat&visb_dist', 'Weather&visb', 'Sky_State', 'Temp_State', 'GBL_Forecast', 'X_Temp', 'Abdo_try', 'Fog_State', 'Fog'])"
